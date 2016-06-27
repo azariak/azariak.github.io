@@ -1,0 +1,63 @@
+body {
+	padding: 8;
+	margin: 0;
+	font-family: Arial, serif;
+	background-color: grey;
+	width: 100%}
+
+p {
+    color:white;
+}
+
+h1  {
+    color:white;
+    text-align:center;
+}
+
+a {
+    text-decoration:none;
+}
+
+#rocksquare {
+    background-color: white;
+    border-radius: 25px;
+    width:350px;
+    height:300px;
+    margin-top: 50px;
+    padding:8;
+    text-align:center;
+    margin: auto;
+    float:left;
+    
+}
+
+#adventer1square {
+    background-color: white;
+    border-radius: 25px;
+    width:350px;
+    height:300px;
+    border:0px 
+    solid #000;
+    margin-top: 50px;
+    padding:8;
+    text-align:center;
+    margin: auto;
+    float:center;
+    
+}
+
+
+#whiteparagraph {
+    color:deepskyblue;
+}
+
+    #playnow {
+      width: 150px;
+      height: 50px;
+      text-align: center;
+      -webkit-border-radius: 125px;
+      -moz-border-radius: 125px;
+      border-radius: 125px;
+      background: deepskyblue;
+      margin:auto;
+    }
