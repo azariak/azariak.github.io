@@ -18,6 +18,18 @@ a {
     text-decoration:none;
 }
 
+    #playnow {
+      width: 150px;
+      height: 50px;
+      text-align: center;
+      -webkit-border-radius: 125px;
+      -moz-border-radius: 125px;
+      border-radius: 125px;
+      background: deepskyblue;
+      margin:auto;
+    }
+
+
 #rocksquare {
     background-color: white;
     border-radius: 25px;
@@ -80,13 +92,3 @@ a {
     color:deepskyblue;
 }
 
-    #playnow {
-      width: 150px;
-      height: 50px;
-      text-align: center;
-      -webkit-border-radius: 125px;
-      -moz-border-radius: 125px;
-      border-radius: 125px;
-      background: deepskyblue;
-      margin:auto;
-    }
