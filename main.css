@@ -28,6 +28,10 @@ a {
       background: deepskyblue;
       margin:auto;
     }
+    
+    #whiteparagraph {
+    color:deepskyblue;
+}
 
 
 #rocksquare {
@@ -88,7 +92,5 @@ a {
 }
 
 
-#whiteparagraph {
-    color:deepskyblue;
-}
+
 
