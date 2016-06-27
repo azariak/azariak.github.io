@@ -14,9 +14,6 @@ h1  {
     text-align:center;
 }
 
-a {
-    text-decoration:none;
-}
 
     #playnow {
       width: 150px;
@@ -91,6 +88,8 @@ a {
     
 }
 
-
+a {
+    text-decoration:none;
+}
 
 
