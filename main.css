@@ -28,7 +28,7 @@ a {
     #whiteparagraph {
     color:deepskyblue;
 }
-#rocksquare {
+.whitebox {
     background-color: white;
     border-radius: 25px;
     width:350px;
@@ -38,8 +38,9 @@ a {
     text-align:center;
     margin: auto;
     float:left;
+    
 }
-#rocksquare:hover {
+.whitebox:hover {
     background-color: deepskyblue;
     border-radius: 25px;
     width:350px;
@@ -49,29 +50,5 @@ a {
     text-align:center;
     margin: auto;
     float:left;
-    color:white;
-}
-#adventer1square {
-    background-color: white;
-    border-radius: 25px;
-    width:350px;
-    height:300px;
-    margin-top: 80px;
-    padding:8;
-    text-align:center;
-    margin: auto;
-    float:center;
-    text-decoration:none;
-}
-#adventer1square:hover {
-    background-color: deepskyblue;
-    border-radius: 25px;
-    width:350px;
-    height:300px;
-    margin-top: 80px;
-    padding:8;
-    text-align:center;
-    margin: auto;
-    float:center;
     color:white;
 }
