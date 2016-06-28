@@ -4,21 +4,16 @@ body {
 	font-family: Arial, serif;
 	background-color: grey;
 	width: 100%}
-
 p {
     color:white;
 }
-
 h1  {
     color:white;
     text-align:center;
 }
-
 a {
     text-decoration:none;
 }
-
-
     #playnow {
       width: 150px;
       height: 50px;
@@ -30,12 +25,9 @@ a {
       margin:auto;
       text-decoration:none;
     }
-    
     #whiteparagraph {
     color:deepskyblue;
 }
-
-
 #rocksquare {
     background-color: white;
     border-radius: 25px;
@@ -46,10 +38,7 @@ a {
     text-align:center;
     margin: auto;
     float:left;
-    
 }
-
-
 #rocksquare:hover {
     background-color: deepskyblue;
     border-radius: 25px;
@@ -61,9 +50,7 @@ a {
     margin: auto;
     float:left;
     color:white;
-    
 }
-
 #adventer1square {
     background-color: white;
     border-radius: 25px;
@@ -76,7 +63,6 @@ a {
     float:center;
     text-decoration:none;
 }
-
 #adventer1square:hover {
     background-color: deepskyblue;
     border-radius: 25px;
@@ -88,8 +74,4 @@ a {
     margin: auto;
     float:center;
     color:white;
-    
 }
-
-
-
