@@ -38,6 +38,7 @@ a {
     text-align:center;
     margin: auto;
     float:left;
+    text-decoration: none;
     
 }
 .whitebox:hover {
@@ -51,4 +52,5 @@ a {
     margin: auto;
     float:left;
     color:white;
+    text-decoration: none;
 }
