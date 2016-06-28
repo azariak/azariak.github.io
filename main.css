@@ -24,6 +24,7 @@ a {
       background-color: deepskyblue;
       margin:auto;
       text-decoration:none;
+      color:white;
     }
         #playnow:hover {
       width: 150px;
@@ -54,6 +55,7 @@ a {
     margin: auto;
     float:left;
     text-decoration: none;
+    color:white;
     
 }
 .whitebox:hover {
