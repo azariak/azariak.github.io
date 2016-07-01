@@ -25,6 +25,7 @@ a {
       margin:auto;
       text-decoration:none;
       color:white;
+      text-decoration:none;
     }
         #playnow:hover {
       width: 200px;
@@ -37,6 +38,7 @@ a {
       margin:auto;
       text-decoration:none;
       color:white;
+      text-decoration:none;
     }
     
     /*for paragraphs with white background color must be deepskyblue*/
@@ -72,8 +74,4 @@ a {
     color:deepskyblue;
     text-decoration: none;
     opacity:1;
-}
-
-a {
-    text-decoration:none;
 }
