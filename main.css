@@ -27,16 +27,16 @@ a {
       color:white;
     }
         #playnow:hover {
-      width: 150px;
-      height: 50px;
+      width: 200px;
+      height: 100px;
       text-align: center;
       -webkit-border-radius: 125px;
       -moz-border-radius: 125px;
       border-radius: 125px;
-      background-color: white;
+      background-color: deepskyblue;
       margin:auto;
       text-decoration:none;
-      color:deepskyblue;
+      color:white;
     }
     
     /*for paragraphs with white background color must be deepskyblue*/
