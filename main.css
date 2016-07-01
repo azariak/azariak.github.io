@@ -51,7 +51,7 @@ a {
     border-radius: 25px;
     width:350px;
     height:300px;
-    margin-top: 80px;
+    margin-top: 100px;
     padding:8;
     text-align:center;
     margin: auto;
@@ -59,6 +59,7 @@ a {
     text-decoration: none;
     color:white;
     opacity:0.7;
+    margin-left:1000px;
     
 }
 .whitebox:hover {
