@@ -56,11 +56,11 @@ a {
     float:left;
     text-decoration: none;
     color:white;
-    opacity:0.5;
+    opacity:0.7;
     
 }
 .whitebox:hover {
-    background-color: deepskyblue;
+    background-color: white;
     border-radius: 25px;
     width:350px;
     height:300px;
