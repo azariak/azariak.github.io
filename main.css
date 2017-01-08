@@ -1,79 +1,43 @@
-body {
-	padding: 8;
-	margin: 0;
+	body {
 	font-family: Arial, serif;
-	background-color: deepskyblue;
-	width: 100%}
-p {
-    color:white;
-}
+	background-color: grey;
+	}
+	
 h1  {
     color:white;
     text-align:center;
 }
+
 a {
     text-decoration:none;
 }
-    #playnow {
+
+#blueparagraph {
+    color:deepskyblue;
+    font-size:30px;
+}
+
+    #button {
       width: 150px;
       height: 50px;
       text-align: center;
-      -webkit-border-radius: 125px;
-      -moz-border-radius: 125px;
       border-radius: 125px;
-      background-color: deepskyblue;
+      background: deepskyblue;
       margin:auto;
-      text-decoration:none;
       color:white;
-      text-decoration:none;
+      font-weight:bold;
+      margin-top:15px;
     }
-        #playnow:hover {
-      width: 200px;
-      height: 100px;
-      text-align: center;
-      -webkit-border-radius: 125px;
-      -moz-border-radius: 125px;
-      border-radius: 125px;
-      background-color: deepskyblue;
-      margin:auto;
-      text-decoration:none;
-      color:white;
-      text-decoration:none;
-    }
-    
-    /*for paragraphs with white background color must be deepskyblue*/
-    #whiteparagraph {
-    color:deepskyblue;
+
+
+#rocksquare {
+    background-color: white;
+    border-radius: 25px;
+    width:350px;
+    height:300px;
+    margin-top: 50px;
+    padding:8px;
+    text-align:center;
+    margin: auto;
 }
 
-.whitebox {
-    background-color: white;
-    border-radius: 25px;
-    width:350px;
-    height:300px;
-    margin-top: 100px;
-    padding:8;
-    text-align:center;
-    margin: auto;
-    float:left;
-    text-decoration: none;
-    color:white;
-    opacity:0.7;
-    margin-left:1000px;
-    
-}
-.whitebox:hover {
-    background-color: white;
-    border-radius: 25px;
-    width:350px;
-    height:300px;
-    margin-top: 80px;
-    padding:8;
-    text-align:center;
-    margin: auto;
-    float:left;
-    color:deepskyblue;
-    text-decoration: none;
-    opacity:1;
-    margin-left:1000px;
-}
