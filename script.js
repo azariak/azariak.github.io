@@ -1,4 +1,4 @@
-function rock() {
+function promo-code() {
   
 var userchoice = prompt("Enter level code").toLowerCase();
 
