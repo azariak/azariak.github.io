@@ -11,14 +11,14 @@ a {
  text-decoration: none; 
  color: white;
 }
-.button {
+button {
     background-color: black;
     color: white;
     border: 1px solid white;
     float: center;
 }
 
-.button:hover {
+button:hover {
     background-color: white; /* Green */
     color: black;
     float: center;
