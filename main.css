@@ -1,43 +1,71 @@
 body {
-font-family: Arial, serif;
-background-color: grey;
-}
-	
-h1  {
-    color:white;
-    text-align:center;
+    background-color: #A0A0A0; 	 
 }
 
-a {
-    text-decoration:none;
+h1 {
+    text-align: center;
+    -webkit-animation: dissapear 7s forwards;
 }
 
-#blueparagraph {
-    color:deepskyblue;
-    font-size:30px;
+#completelevelcircles {
+  background-color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 325px;
+  text-align: center;
+  line-height: 0px;
+  color: #A0A0A0;
 }
 
-    #button {
-      width: 150px;
-      height: 50px;
-      text-align: center;
-      border-radius: 125px;
-      background: deepskyblue;
-      margin:auto;
-      color:white;
-      font-weight:bold;
-      margin-top:15px;
-    }
+/*i can try positioning circles by px*/
 
+#incompletelevelcircles {
+  background-color: #E0E0E0;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-top: 10px;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
 
-#rocksquare {
-    background-color: white;
-    border-radius: 25px;
-    width:350px;
-    height:300px;
-    margin-top: 50px;
-    padding:8px;
-    text-align:center;
-    margin: auto;
+}
+
+#completelevelcircles:hover {
+    font-weight: bold;
+
+}
+
+.redsquare {
+     background-color: red; 
+     border: 2.4px solid black;
+     -webkit-animation: dissapear 5s forwards;
+
+}
+
+.redsquare:hover {
+     background-color: black; 
+     border: 2.4px solid black;
+    -webkit-animation: hover 5s forwards;
+
+}
+
+#redsquare1 {
+    width: 150px;
+    height: 100px;
+}
+
+#redsquare2 {
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+ 
+@-webkit-keyframes dissapear {
+
+    100%  {background-color: #A0A0A0; border: .1px #A0A0A0; color: #A0A0A0;
 }
 
