@@ -6,4 +6,16 @@ h1 {
     text-align: center;
 }
 
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.button:hover {
+    background-color: white; /* Green */
+    color: black;
+}
 
