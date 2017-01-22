@@ -7,8 +7,6 @@ h1 {
 }
 
 .button {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
     background-color: black;
     color: white;
     border: 1px solid white;
