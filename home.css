@@ -12,10 +12,12 @@ h1 {
     background-color: black;
     color: white;
     border: 1px solid white;
+    float: center;
 }
 
 .button:hover {
     background-color: white; /* Green */
     color: black;
+    float: center;
 }
 
