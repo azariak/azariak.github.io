@@ -10,12 +10,14 @@ h1 {
 a {
  text-decoration: none; 
  color: white;
+ text-align: center;
 }
 button {
     background-color: black;
     color: white;
     border: 1px solid white;
-    float: center;
+    float:center;
+    
 }
 
 button:hover {
