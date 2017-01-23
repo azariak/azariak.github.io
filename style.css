@@ -7,6 +7,10 @@ h1 {
     -webkit-animation: dissapear 7s forwards;
 }
 
+h2 {
+   float: right;
+}
+
 #completelevelcircles {
   background-color: white;
   width: 25px;
@@ -41,7 +45,6 @@ h1 {
 .redsquare {
      background-color: red; 
      border: 2.4px solid black;
-     -webkit-animation: dissapear 5s forwards;
 
 }
 
@@ -53,18 +56,42 @@ h1 {
 }
 
 #redsquare1 {
-    width: 150px;
+    width: 120px;
     height: 100px;
 }
 
 #redsquare2 {
-    width: 200px;
+    width: 150px;
     height: 100px;
     margin-top: 10px;
-    position: right;
+
 }
 
- 
+ #redsquare3 {
+    width: 170px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+ #redsquare4 {
+    width: 170px;
+    height: 100px;
+}
+
+ #redsquare5 {
+    width: 170px;
+    height: 100px;
+}
+
+ #redsquare6 {
+    width: 170px;
+    height: 100px;
+    float: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 @-webkit-keyframes dissapear {
 
     100%  {opacity: 0;
