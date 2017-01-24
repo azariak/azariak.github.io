@@ -45,13 +45,14 @@ h2 {
 .redsquare {
      background-color: red; 
      border: 2.4px solid black;
+        -webkit-animation: hover 5s forwards;
+
 
 }
 
 .redsquare:hover {
      background-color: black !important; 
      border: 2.4px solid black  !important;
-    -webkit-animation: hover 5s forwards;
 
 }
 
