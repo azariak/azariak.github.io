@@ -45,7 +45,7 @@ h2 {
 .redsquare {
      background-color: red; 
      border: 2.4px solid black;
-        -webkit-animation: hover 5s forwards;
+        -webkit-animation: dissapear 5s forwards;
 
 
 }
