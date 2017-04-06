@@ -1,6 +1,13 @@
-<script src="processing.js"></script>
-<script type="text/processing" data-processing-target="mycanvas">
-noStroke();
+<html>
+  <head>
+    <title>A Processing.js Example</title>
+    <script type="text/javascript" src="processing.js"></script>
+    <script type="text/javascript" src="init.js"></script>
+  </head>
+  <body>
+    <h1>A Processing.js Example</h1>
+    <script type="application/processing">
+    noStroke();
 
 
 draw = function() {
@@ -8,4 +15,6 @@ draw = function() {
     ellipse(mouseX, mouseY, 100, 100);
 };
 
-<canvas id="mycanvas"></canvas>
+    </script><canvas></canvas>
+  </body>
+</html>
