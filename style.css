@@ -31,7 +31,7 @@ a {
     }
 
 
-#rocksquare {
+#rocksquare, #rocksquaredefualt, #rocksquarelight, #rocksquare2 {
     background-color: white;
     border-radius: 25px;
     width:350px;
@@ -39,17 +39,24 @@ a {
     margin-top: 50px;
     padding:8px;
     text-align:center;
-    margin: left;
 }
 
-
-#rocksquare2 {
+#rocksquaredefualt {
     background-color: white;
     border-radius: 25px;
     width:350px;
     height:300px;
     margin-top: 50px;
-    padding:8px;
+    margin-left: 50px;
     text-align:center;
-    margin: right;
+}
+
+#rocksquarelight {
+    background-color: white;
+    border-radius: 25px;
+    width:350px;
+    height:300px;
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align:center;
 }
