@@ -41,6 +41,27 @@ a {
     text-align:center;
 }
 
+
+#rocksquare2 {
+    background-color: white;
+    border-radius: 25px;
+    width:350px;
+    height:300px;
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align:center;
+}
+
+#rocksquare {
+    background-color: white;
+    border-radius: 25px;
+    width:350px;
+    height:300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align:center;
+}
+
 #rocksquaredefualt {
     background-color: white;
     border-radius: 25px;
