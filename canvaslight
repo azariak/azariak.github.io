@@ -1,0 +1,21 @@
+
+<html>
+  <head>
+    <script type="text/javascript" src="processingJS/processing.js"></script>
+    <script type="text/javascript" src="processingJS/init.js"></script>
+  </head>
+  <body>
+    <h1></h1>
+    <script type="application/processing">
+    size(2000, 2000)
+    noStroke();
+
+
+draw = function() {
+    fill(mouseX, mouseY, 100);
+    ellipse(mouseX, mouseY, 100, 100);
+};
+
+    </script><canvas></canvas>
+  </body>
+</html>
