@@ -1,14 +1,14 @@
 
 function cointoss() {
 
-    var toss =    var computerchoice = Math.random();
+    var toss = Math.random();
 
-    if (computerchoice > .50) {
+    if (toss > .50) {
         alert("Heads");
 
     }
     
-        if (computerchoice < .50) {
+else {
         alert("Tails");
 
     }
