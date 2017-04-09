@@ -13,6 +13,13 @@ a {
 	color: blue;
 }
 
+    #topbar {
+        background-color: orange;
+        position: fixed;
+        width: 100%;
+        height: 75;
+    }
+
 #blueparagraph {
     color:deepskyblue;
     font-size:30px;
