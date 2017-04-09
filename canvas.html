@@ -18,15 +18,24 @@
                 <p> Select this colour</p>
             </button></a>
             <br><br>
-            <img src = "default.png" width = 200 height = 200 align = center>
-        </div>
+                    <script type="application/processing">
+    size(300, 300)
+    noStroke();
+
+
+draw = function() {
+    fill(mouseX, mouseY, 10);
+    ellipse(mouseX, mouseY, 100, 100);
+};
+
+    </script><canvas></canvas>        </div>
     
             <div id = "rocksquare/canvaslight">
             <a href = "https://azariak.github.io/canvaslight.html"><button id = "button"><p> Select this colour</p>
             </button></a>
             <br><br>
                     <script type="application/processing">
-    size(200, 200)
+    size(300, 300)
     noStroke();
 
 
