@@ -22,7 +22,7 @@
                     <script type="application/processing">
     size(300, 300)
     noStroke();
-var color = random(250);
+var color = 10;
 
 draw = function() {
     fill(mouseX, mouseY, color);
@@ -32,16 +32,16 @@ draw = function() {
     </script><canvas></canvas>        </div>
     
             <div id = "rocksquare/canvaslight">
-            <a href = "https://azariak.github.io/canvaslight.html"><button id = "button"><p> Select this colour</p>
+            <a href = "https://azariak.github.io/canvaslight.html"><button id = "button"><p> Select random </p>
             </button></a>
             <br><br>
                     <script type="application/processing">
     size(300, 300)
     noStroke();
 
-
+color = random(300);
 draw = function() {
-    fill(mouseX, mouseY, 200);
+    fill(mouseX, mouseY, color);
     ellipse(mouseX, mouseY, 100, 100);
 };
 
