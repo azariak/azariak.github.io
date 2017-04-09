@@ -22,10 +22,10 @@
                     <script type="application/processing">
     size(300, 300)
     noStroke();
-
+var color = random(250);
 
 draw = function() {
-    fill(mouseX, mouseY, 10);
+    fill(mouseX, mouseY, color);
     ellipse(mouseX, mouseY, 100, 100);
 };
 
