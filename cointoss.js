@@ -1,4 +1,3 @@
-
 function cointoss() {
 
     var toss = Math.random();
