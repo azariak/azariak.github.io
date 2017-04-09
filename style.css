@@ -47,6 +47,7 @@ a {
       font-weight:bold;
       margin-top:15px;
     }
+
 #rocksquare, #rocksquaredefualt, #rocksquarelight, #rocksquare2 {
     background-color: white;
     border-radius: 25px;
@@ -73,10 +74,8 @@ a {
     border-radius: 25px;
     width:350px;
     height:300px;
-    margin-top: 500px;
-	margin-right: 400px;
     text-align:center;
-	float: center;
+float: center;
 }
 
 #rocksquare {
