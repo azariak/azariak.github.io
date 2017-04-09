@@ -4,8 +4,11 @@
 <head>
     <title>Colour selector</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
 <script src="script.js"></script>
 
+        <script type="text/javascript" src="processingJS/processing.js"></script>
+    <script type="text/javascript" src="processingJS/init.js"></script>
 </head>
 
 <body>
@@ -22,7 +25,17 @@
             <a href = "https://azariak.github.io/canvaslight.html"><button id = "button"><p> Select this colour</p>
             </button></a>
             <br><br>
-            <img src = "canvaslight.png" width = 200 height = 200 align = center>
+                    <script type="application/processing">
+    size(200, 200)
+    noStroke();
+
+
+draw = function() {
+    fill(mouseX, mouseY, 200);
+    ellipse(mouseX, mouseY, 100, 100);
+};
+
+    </script><canvas></canvas>
         </div>
 
 
