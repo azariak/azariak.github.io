@@ -8,12 +8,13 @@
   <body>
     <h1></h1>
     <script type="application/processing">
-    size(1400, 1200)
     noStroke();
 
 
 draw = function() {
-    fill(mouseX, mouseY, 10);
+    size(mouseX, mouseY)
+
+    fill(mouseX, mouseY, mouseX);
     ellipse(mouseX, mouseY, mouseY, mouseX);
 };
 
